@@ -5,6 +5,19 @@ products_to_track = [
         "product_url": "https://www.amazon.in/Renewed-Samsung-Galaxy-Ocean-Storage/dp/B08DY3GFPJ/",
         "name": "Samsung M31"
     },
+
+    {
+        "product_url": "https://www.amazon.com/Sony-Unlocked-Smartphone-Official-Warranty/dp/B0C3WN5JZM",
+        "name": "Sony Xperia 1V"
+    },
+    {
+        "product_url": "https://www.amazon.in/Motorola-Edge-Magenta-256GB-Storage/dp/B0CFJF8M7N",
+        "name": "Motorola Edge40"
+    },
+    {
+        "product_url": "https://amzn.in/d/7xXXw16",
+        "name": "Nokia 105"
+    },
     {
         "product_url": "https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX1W1XY/",
         "name": "iPhone 15"
@@ -52,11 +65,13 @@ def give_product_price(url):
 # Desired price thresholds for each product
 desired_prices = {
     "Samsung M31": 8990,
+    "Sony Xperia 1V": 60000,
+    "Motorola Edge40": 30000,
+    "Nokia 105": 1000,
     "iPhone 15": 62500,
     "Samsung M35": 17000,
     "iPhone 16": 74000,
     "vivo v50": 37000,
-
 }
 
 # Open the result file with utf-8 encoding
